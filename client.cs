@@ -6,7 +6,7 @@ using static CitizenFX.Core.Native.API;
 namespace FLUX
 
 {
-    public class Class1 : BaseScript
+    public class FLUX_C1 : BaseScript
 
     {
         public static string FirstCharToUpper(string input)
@@ -16,7 +16,7 @@ namespace FLUX
             return char.ToUpper(input[0]) + input.Substring(1);
         }
 
-        public Class1()
+        public FLUX_C1()
         {
             EventHandlers["onClientResourceStart"] += new Action<string>(OnClientResourceStart);
         }
