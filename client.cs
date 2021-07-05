@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using CitizenFX.Core;
 using static CitizenFX.Core.Native.API;
 
-namespace FiveMCS
+namespace FLUX
 
 {
     public class Class1 : BaseScript
